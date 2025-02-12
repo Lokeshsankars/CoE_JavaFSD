@@ -33,7 +33,7 @@ public class Accountant {
 			ResultSet rs = ps.executeQuery();
 			
 			while(rs.next()) {
-				list.add(rs.getInt("id") + " - " + rs.getString("name") + " - " + rs.getString("email"));
+				list.add(rs.getInt("id") + "  " + rs.getString("name") + "  " + rs.getString("email"));
 				
 			}
 		}catch(SQLException e) {
