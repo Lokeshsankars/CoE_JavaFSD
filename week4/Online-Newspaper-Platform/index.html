@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Newspaper Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>PECNEWS</h1>
+
+                    <li><a href="#general" id="general">General</a></li>
+                    <li><a href="#business" id="business">Business</a></li>
+                    <li><a href="#sports" id="sports">Sports</a></li>
+                    <li><a href="#technology" id="technology">Technology</a></li>
+                    <li><a href="#entertainment" id="entertainment">Entertainment</a></li>
+
+                </div>
+                <br>
+
+                <div class="searchBar">
+                    <input type="text" placeholder="Search Here.." value="" id="newsQuery">
+                    <button id="searchBtn">Search</button>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="newsType"></section>
+        <section id="newsdetails" class="news-container"></section>
+    </main>
+
+    <footer>
+        <p>Panimalar<span class="highlight">News</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
